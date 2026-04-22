@@ -36,7 +36,7 @@ colI, colII = st.columns(2)
 with colI:
     palavras = st.number_input("Contagem de palavras", min_value=0, step=100, value=30000)
 with colII:
-    valor_palavra = st.number_input("Valor por palavra (R$)", min_value=0.00, step=0.01, value=0.0315, format="%.2f")
+    valor_palavra = st.number_input("Valor por palavra (R$)", min_value=0.00, step=0.01, value=0.0315, format="%.5f")
 
 st.markdown("### Desconto e parcelamento")
 c1, c2, c3 = st.columns(3)
